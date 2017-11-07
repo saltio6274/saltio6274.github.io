@@ -1,0 +1,24 @@
+h1 {
+  color:blue;
+  font-family: Verdana;
+}
+
+p {
+  color:red;
+  font-family: Courier;
+}
+
+#id1 {
+  color:blue;
+  text-align:center;
+}
+
+.O {
+  color:blue;
+  font font-family: Verdana;
+}
+
+.O p {
+  color:blue;
+  font font-family: Verdana;
+}
