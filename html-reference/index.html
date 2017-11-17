@@ -33,10 +33,21 @@ li a:hover {
 </head>
 <body>
 
+ <ul>
+    <li><a href="https://saltio6274.github.io/index.html">Home</a></li>
+    <li><a href="https://PlayerEugene.github.io/project/index.html">Project</a></li>
+    <li><a href="https://saltio6274.github.io/exercises/index.html">Exercises</a></li>
+    <li><a href="https://saltio6274.github.io/CSS-exercises/index.html">CSS Exercises</a></li>
+    <li><a class="active" href="https://saltio6274.github.io/html-reference/index.html">HTML References</a></li>
+  </ul>
+
+</body>
+</html>
+
+  </style>
 </head>
 <body>
-<a href="https://saltio6274.github.io/index">Home</a>
-<h1>HTML Reference Page</h1>
+<h1 class="center">HTML Reference Page</h1>
     <table style="width:100%">
     <tr>
       <th>Shortcut</th>
@@ -83,12 +94,14 @@ li a:hover {
     <tr>
       <td><a href="#7">Breaks</a></td>
       <td>&lt br &gt</td> 
+      <td>N/A</td>
       <td>This is a &lt br &gt
       break.</td>
     </tr>
     <tr>
       <td><a href="#8">Lines</a></td>
       <td>&lt hr &gt</td> 
+      <td>N/A</td>
       <td>&lt p &gt This is a line code. &lt hr &gt</td>
       
     </tr>
@@ -100,12 +113,14 @@ li a:hover {
     </tr>
     <tr>
       <td><a href="#10">Links</a></td>
-      <td>&lt a &gt</td> 
+      <td>&lt a &gt</td>
+      <td>N/A</td>
       <td>&lt a=href"Link" &gt This is a link tag &lt a &gt</td>
     </tr>
     <tr>
       <td><a href="#11">Images</a></td>
       <td>&lt img &gt</td> 
+      <td>N/A</td>
       <td>&lt img src="url" alt="description" &gt</td>
     </tr>
     <tr>
@@ -113,11 +128,11 @@ li a:hover {
       <td>&lt ul &gt &lt ol &gt &lt li &gt</td> 
       <td>&lt /ul &gt &lt /ol &gt &lt /li &gt</td>
       <td>
-        <ul>
+        &lt ul &gt
       &lt Item &gt
       &lt Another Item &gt
       &lt The third Item &gt
-        </ul>
+        &lt /ul &gt
       </td>
     </tr>
     <tr>
@@ -140,63 +155,63 @@ li a:hover {
       <td>&lt div style="Styles" &gt Text &lt /div &gt</td>
     </tr>
   </table>
-  <h2 id="1">HTML Elemenet</h2>
+
+  <h2 id="1" class="ap">HTML Element</h2>
     <p>The HTML tag is vital for your code. You put it at the start and end of every code to say that your code is html. It looks like 	&lt html &gt. You use it in every single html code. It doesn't display.</p>
-    
     <hr>
+  
   <h2 id="2">Title Element</h2>
     <p>A title is used to title the tab of the webpage. It is represented by &lt title &gt. It is placed in the head. It labels the tab of the webpage. This one is HTML Reference.</p>
-    
     <hr>
-  <h2 id="3">Heading Element</h2>
+  
+  <h2 id="3" class="ap">Heading Element</h2>
     <p>The head element is used to put in everything not visual such as the title of the webpage. It is shown as &lt head &gt. You use it if you want to label your website after the html tag and before the body tag.</p>
-    
     <hr>
-  <h2 id="4">Body Element</h2>
+ 
+  <h2 id="4" >Body Element</h2>
     <p>The body element is what is visually displayed on the website. It is showed using the &lt body &gt tag. It is placed after the title tag and is in the html tag.</p>
-    
     <hr>
-  <h2 id="5">Heading Element (This is a heading tag visually)</h2>
+  
+  <h2 id="5" class="ap">Heading Element (This is a heading tag visually)</h2>
     <p>A Header is used to title your paragraphs and come in 6 different sizes. They are put in the body. Headers are basically bigger font sized paragraphs. It is represented by 	&lt h1 &gt. It is mosly used before the paragraph tag to signify what the paragraph tag is going to be about.</p>
-   
     <hr>
+  
   <h2 id="6">Paragraph Element</h2>
     <p>A Paragraph element is used to write paragraphs. They are put in the body. All of these sentences are part of a paragraph and is shown as &lt p &gt. It usually comes after the heading tag.</p>
-    
     <hr>
-  <h2 id="7">Break Element</h2>
+  
+  <h2 id="7" class="ap">Break Element</h2>
     <p>Breaks are used to indent a line.<br>As you can see, this line is under the previous sentence. They are put in the body. It is shown as &lt br &gt. It is used to put things in the next line and can be used whenever.</p>
-    
     <hr>
-  <h2 id="8">Line Element</h2>
+  
+  <h2 id="8" >Line Element</h2>
     <p>Lines are used to break apart different ideas. They are put in the body. All the horizontal lines are made using the line element. Shown as &lt hr &gt. It is used to break apart different ideas.</p>
-    
     <hr>
-  <h2 id="9">Comment Element</h2>
+ 
+  <h2 id="9" class="ap">Comment Element</h2>
     <p>Comments are messages you write in code that don't affect the code and don't show. They can be put anywhere. It looks like &lt !-- --&gt. You can't actually see these in the webpage.</p>
-   
     <hr>
+  
   <h2 id="10">Link Element</h2>
     <p>Links are used to put in a link into phrases, images, or words. They are put in the body. They are represented by using &lt a &gt. They can direct you to another place in your website or any website on the web.</p>
-    <a href="https://www.google.com">This is a link to Google</a>
-   
+    <a href="https://www.apple.com/">This is a link to Apple</a>
     <hr>
-  <h2 id="11">Image Element</h2>
+  
+  <h2 id="11" class="ap">Image Element</h2>
     <p>Images are used to just put in images. It's represented by &lt img &gt. They are put in the body and you can resize them.</p>
-    <img src="/images/Approaching_Omaha.jpg" alt="World War 2" height="333" width="500">
-    
+    <img src="/images/Approaching_Omaha.jpg" alt="Approaching Omaha" height="333" width="500">
     <hr>
+  
   <h2 id="12">List Element</h2>
     <p>Lists are used to list a group of items. They are put in the body and can be either bullet points or numbers. Shown by &lt ul &gt, &lt ol &gt, or &lt li &gt.</p>
-    <ul>
-      <li>Item</li>
-      <li>Another Item</li>
-      <li>The third Item</li>
+    <ul class="list">
+      <li>Orange</li><br>
+      <li>Blue</li><br>
+      <li>Toy</li>
     </ul>
-    
-   
     <hr>
-  <h2 id="13"> Table Element</h2>
+  
+  <h2 id="13" class="ap"> Table Element</h2>
     <p>Tables are used to create tables of stuff and compare them. Tables put things in a grid and are mostly used in the body. It looks like &lt table &gt.</p>
   <table style="width:100%">
     <tr>
@@ -215,13 +230,12 @@ li a:hover {
       <td>A Table</td>
     </tr>
   </table>
-    
     <hr>
+  
   <h2 id="14">Block Element</h2>
     <p>Blocks are used to put a certain syle such as font size or type to a block of stuff. It is used by the code &lt div &gt. It is used in the body to change the style of a certain part of lines.</p>
     <div style="background-color:black;color:white;padding:20px;">
       Hi this is an example of a block element.
     </div>
-    
 </body>
 </html>
