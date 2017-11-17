@@ -13,11 +13,11 @@ h2 {
 }
 
 .list {
-    background-color: white;
+    background-color: black;
 }
 
 .center {
-    border: 2px solid lightblue;
+    border: 2px solid blue;
     border-radius: 5px;
     text-align: center;
 }
