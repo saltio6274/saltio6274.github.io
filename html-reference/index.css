@@ -4,8 +4,8 @@ table {
 }
 
 table, th, td {
-    border: 1px solid lightblue;
-    background-color: black;
+    border: 1px solid black;
+    background-color: lightgreen;
 }
 
 h2 {
@@ -13,15 +13,15 @@ h2 {
 }
 
 .list {
-    background-color: lightgreen;
+    background-color: white;
 }
 
 .center {
-    border: 2px solid white;
+    border: 2px solid lightblue;
     border-radius: 5px;
     text-align: center;
 }
 
 .ap {
-    background-color: green;
+    background-color: lightgreen;
 }
