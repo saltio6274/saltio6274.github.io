@@ -1,11 +1,11 @@
 table {
     border-collapse: collapse;
-    background-color: lightblue;
+    background-color: white;
 }
 
 table, th, td {
-    border: 1px solid black;
-    background-color: lightblue;
+    border: 1px solid lightblue;
+    background-color: black;
 }
 
 h2 {
@@ -13,15 +13,15 @@ h2 {
 }
 
 .list {
-    background-color: white;
+    background-color: lightblue;
 }
 
 .center {
-    border: 2px solid green;
+    border: 2px solid lightblue;
     border-radius: 5px;
     text-align: center;
 }
 
 .ap {
-    background-color: lightgreen;
+    background-color: green;
 }
